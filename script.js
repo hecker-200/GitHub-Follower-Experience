@@ -100,7 +100,7 @@ function animateStoryJourney(followersCount, username) {
     ease: "power1.inOut"
   });
 
-  // Animate orb to scene 2 position
+  // Animate orb entrance and journey through scenes
   gsap.to(travelingOrb, {
     left: '10%',
     duration: 2,
