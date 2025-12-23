@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Followers - Cinematic Experience</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="floating-title">
+    <span id="titleText">GitHub Stories</span>
+  </div>
+
+  <!-- Scene 1: Portal -->
+  <section class="scene scene-1">
+    <div class="portal-container">
+      <div class="portal-glow-ring"></div>
+      <div class="portal-inner">
+        <h1 class="portal-title">Enter Your GitHub Universe</h1>
+        <input type="text" id="txt" class="portal-input" placeholder="Enter GitHub username...">
+        <button id="know" class="portal-button">Begin Journey</button>
+        <p class="portal-subtitle">Discover your digital legacy</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scene 2: The Ascent -->
+  <section class="scene scene-2">
+    <div class="mountain-range">
+      <div class="mountain mountain-1"></div>
+      <div class="mountain mountain-2"></div>
+      <div class="mountain mountain-3"></div>
+    </div>
+    <div class="clouds">
+      <div class="cloud cloud-1"></div>
+      <div class="cloud cloud-2"></div>
+      <div class="cloud cloud-3"></div>
+    </div>
+    <div class="flying-birds">
+      <div class="bird bird-1">🕊️</div>
+      <div class="bird bird-2">🕊️</div>
+      <div class="bird bird-3">🕊️</div>
+    </div>
+    <div class="scene-label">The Ascent</div>
+    <div class="username-display" id="usernameDisplay">@username</div>
+    <p class="journey-text">Your journey begins...</p>
+  </section>
+
+  <!-- Scene 3: Data Stream -->
+  <section class="scene scene-3">
+    <div class="data-particles"></div>
+    <div class="loading-orb"></div>
+    <pre class="matrix-text" id="matrix"></pre>
+    <div class="scene-label">The Data Stream</div>
+    <p class="data-info">Processing your digital footprint...</p>
+  </section>
+
+  <!-- Scene 4: The Peak -->
+  <section class="scene scene-4">
+    <div class="aurora-borealis"></div>
+    <div class="stars-field"></div>
+    <div class="peak-sky"></div>
+    <div class="golden-light"></div>
+    <div class="scene-label">The Peak</div>
+    <p class="peak-info">You're almost at the revelation...</p>
+  </section>
+
+  <!-- Scene 5: The Revelation -->
+  <section class="scene scene-5">
+    <div class="crown">👑</div>
+    <div class="followers" id="followers">0</div>
+    <div class="username-reveal" id="usernameReveal">@username</div>
+    <div class="achievement-text">GitHub Followers</div>
+    <div class="scene-label">The Revelation</div>
+  </section>
+
+  <!-- Traveling Orb -->
+  <div class="traveling-orb" id="travelingOrb">
+    <div class="orb-core"></div>
+    <div class="orb-glow"></div>
+    <div class="orb-counter" id="orbCounter"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
